@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	margin-top: 120px;
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-size: fixed; */
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dice {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+
+	border-radius: 10px;
+
+	cursor: pointer;
+}
+.num {
+	color: white;
+	font-size: 60px;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
